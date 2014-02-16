@@ -13,7 +13,10 @@ countTo({<br>
 });<br>
 
 countTo will also fire off the following events on the context jQuery expression:
+<ul>
+<li>countstart</li>
+<li>countincrement</li>
+<li>countcomplete</li>
+</ul>
 
-countstart
-countincrement
-countcomplete
+
