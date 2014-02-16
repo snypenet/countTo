@@ -5,12 +5,13 @@ A simple JavaScript plug-in that will count from one value to another and output
 
 An example of using this plug-in:
 
-countTo({<br>
-  &nbsp;&nbsp;to: [ending number],<br>
-  &nbsp;&nbsp;from: [starting number],<br>
-  &nbsp;&nbsp;context: [jQuery expression that can be used to display the current count value],<br>
-  &nbsp;&nbsp;duration: [time in milliseconds to update the count]<br>
-});<br>
+<code>countTo({<br>
+&nbsp;&nbsp;&nbsp;&nbsp;to: [ending number],<br>
+&nbsp;&nbsp;&nbsp;&nbsp;from: [starting number],<br>
+&nbsp;&nbsp;&nbsp;&nbsp;context: [jQuery expression that can be used to display the current count value],<br>
+&nbsp;&nbsp;&nbsp;&nbsp;duration: [time in milliseconds to update the count]<br>
+});</code>
+<br>
 
 countTo will also fire off the following events on the context jQuery expression:
 <ul>
