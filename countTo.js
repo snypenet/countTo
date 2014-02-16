@@ -12,7 +12,7 @@ function countTo(i) {
         $(i.context).trigger("countstart");
     }
 
-    if (i && i.context && i.from && i.to) {
+    if (i && i.context) {
         //check whether we are done counting
         if (Number(i.from) != Number(i.to)) {
             //check whether the step time has been set
